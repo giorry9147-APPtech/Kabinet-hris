@@ -18,6 +18,7 @@ class DatabaseSeeder extends Seeder
             DemoEmployeeSeeder::class,
             ContractsAndResolutionsSeeder::class,
             MeetingsSeeder::class,
+            DemoFillSeeder::class,
         ]);
     }
 }
