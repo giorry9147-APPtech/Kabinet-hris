@@ -1,0 +1,16 @@
+# Local-only files that must not influence the Vercel build.
+# .env.local would otherwise override the dashboard env vars (e.g. NEXT_PUBLIC_API_URL).
+.env
+.env.local
+.env.development
+.env.development.local
+.env.production
+.env.production.local
+
+# Build artefacts
+.next
+node_modules
+
+# Editor
+.vscode
+.idea

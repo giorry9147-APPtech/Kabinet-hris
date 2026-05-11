@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* Kabinet van de President brand colors — donkergroen + goud
+     Note: class names "mas-blue" / "mas-red" zijn bewust behouden uit de MAS-HRIS basis
+     zodat alle bestaande componenten zonder rename werken. De HEX-waardes zijn
+     vervangen door Kabinet-groen + goud. */
+
+  /* "mas-blue" = Kabinet PRIMAIR (donkergroen, gebaseerd op #1F5E3A) */
+  --color-mas-blue-50: #e8f3ec;
+  --color-mas-blue-100: #c9e3d2;
+  --color-mas-blue-200: #97c6a8;
+  --color-mas-blue-300: #65a87e;
+  --color-mas-blue-400: #408a5e;
+  --color-mas-blue-500: #2a724a;
+  --color-mas-blue-600: #1f5e3a;
+  --color-mas-blue-700: #194a2e;
+  --color-mas-blue-800: #133722;
+  --color-mas-blue-900: #0c2417;
+
+  /* "mas-red" = Kabinet ACCENT (goud, gebaseerd op #D4A017) */
+  --color-mas-red-50: #fdf6e3;
+  --color-mas-red-100: #f9e8b8;
+  --color-mas-red-200: #f0d278;
+  --color-mas-red-300: #e6bc38;
+  --color-mas-red-400: #d8a823;
+  --color-mas-red-500: #d4a017;
+  --color-mas-red-600: #b08210;
+  --color-mas-red-700: #8a660c;
+  --color-mas-red-800: #5e4608;
+  --color-mas-red-900: #2f2304;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
