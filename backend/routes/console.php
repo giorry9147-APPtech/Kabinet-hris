@@ -22,3 +22,8 @@ Schedule::command('resolutions:check-expiry --days=60')
     ->dailyAt('08:10')
     ->timezone('America/Paramaribo')
     ->withoutOverlapping();
+
+Schedule::command('kabinet:check-deadlines --days=14')
+    ->dailyAt('08:15')
+    ->timezone('America/Paramaribo')
+    ->withoutOverlapping();

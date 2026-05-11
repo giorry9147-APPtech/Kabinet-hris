@@ -1,3 +1,6 @@
+# Claude Code config — bevat API tokens, NIET committen
+.claude/
+
 # OS
 .DS_Store
 Thumbs.db

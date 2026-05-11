@@ -29,6 +29,9 @@ class RolePermissionSeeder extends Seeder
             'users.manage',
             'roles.manage',
             'audit_log.view',
+            'meetings.view', 'meetings.manage',
+            'decisions.view', 'decisions.manage',
+            'action_items.view', 'action_items.manage',
         ];
 
         foreach ($permissions as $perm) {
@@ -51,6 +54,9 @@ class RolePermissionSeeder extends Seeder
                 'reports.view',
                 'users.manage',
                 'audit_log.view',
+                'meetings.view', 'meetings.manage',
+                'decisions.view', 'decisions.manage',
+                'action_items.view', 'action_items.manage',
             ],
 
             'hr_admin' => [
@@ -72,6 +78,9 @@ class RolePermissionSeeder extends Seeder
                 'assets.view',
                 'documents.view',
                 'reports.view',
+                'meetings.view', 'meetings.manage',
+                'decisions.view',
+                'action_items.view', 'action_items.manage',
             ],
 
             'finance' => [

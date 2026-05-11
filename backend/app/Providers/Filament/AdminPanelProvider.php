@@ -47,6 +47,8 @@ class AdminPanelProvider extends PanelProvider
             ->widgets([
                 \App\Filament\Widgets\HrStatsOverview::class,
                 \App\Filament\Widgets\DeadlineRadarWidget::class,
+                \App\Filament\Widgets\UpcomingMeetingsWidget::class,
+                \App\Filament\Widgets\OpenActionItemsWidget::class,
                 \App\Filament\Widgets\PendingLeaveRequestsWidget::class,
                 \App\Filament\Widgets\EmployeesOnLeaveWidget::class,
                 \App\Filament\Widgets\HeadcountByOrgUnitChart::class,
@@ -54,6 +56,7 @@ class AdminPanelProvider extends PanelProvider
                 Widgets\AccountWidget::class,
             ])
             ->navigationGroups([
+                'Kabinetschef',
                 'Personeel',
                 'Organisatie',
                 'Salaris',

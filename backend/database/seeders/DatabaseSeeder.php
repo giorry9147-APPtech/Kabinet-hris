@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder
             CertificateTypeSeeder::class,
             DemoEmployeeSeeder::class,
             ContractsAndResolutionsSeeder::class,
+            MeetingsSeeder::class,
         ]);
     }
 }
